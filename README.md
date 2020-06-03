@@ -18,9 +18,7 @@ implemented.
 
 ### Improvements
 
-Since this should be a library that would be availed of by multiple processes (BGP, RIP, OSPf....), it would be wise to turn it into a shared library (but wasn't for the sake of time... leaving out flock, mmap etc..). Since the vast majority is still pseudo-code, no testing suite has been added. As of yet, it's possible
-to add as many RTE's to the SLL within a final bit prefix node. More than likely there are other edge cases I'm forgetting to
-comment down here which I didn't account for.
+Since this should be a library that would be availed of by multiple processes (BGP, RIP, OSPf....), it would be wise to turn it into a shared library (but wasn't for the sake of time... leaving out flock, mmap etc..). Since the vast majority is still pseudo-code, no testing suite has been added, but it would be ideal to have one. As of yet, it's possible to add as many RTE's to the SLL within a final bit prefix node... this is not ideal. More than likely there are other edge cases I'm forgetting to comment down here which I didn't account for, for the sake of time.
 
 ### Different Approaches
 
