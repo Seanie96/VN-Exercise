@@ -20,7 +20,7 @@
  *  valid IPv4 address without mask: "1.2.3.4"
  *
  *  valid IPv6 address with mask: "::1001:1010/22"
- *  valid IPv6 address without mask: "::1001:1010/23"
+ *  valid IPv6 address without mask: "::1001:1010"
  */
 
 /*
@@ -47,7 +47,7 @@ void cleanup( void );
  * @param addr: (IPv4 | IPv6) address (CIDR notation).
  * @param gw:   (Gateway) Address of next-hop to be taken.
  * @param intf: Address of interface to forward packets on.
- * @param qual: Superficial QOS/pm numeric value of using the associated
+ * @param qual: Superficial QOS/pm numeric value of the associated
  *              interface to forward packets on to reach the associated
  *              network.
  *
